@@ -1,0 +1,21 @@
+{
+  "name": "bon-rewards-backend",
+  "version": "1.0.0",
+  "description": "BON Rewards Backend - Gift card rewards for on-time bill payments",
+  "main": "src/app.js",
+  "private": true,
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["rewards", "bills", "payments", "gift-cards", "api"],
+  "author": "BON Rewards",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongodb": "^6.3.0",
+    "mongoose": "^8.0.3"
+  }
+}
